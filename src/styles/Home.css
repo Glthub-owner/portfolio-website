@@ -1,0 +1,134 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+  /* height: 100vh; */
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #21325e;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  color: #e9d35b;
+  height: 50px;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 200px);
+}
+
+.skills h1 {
+  color: #3e497a;
+}
+.skills h2 {
+  align-self: center;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 35px;
+  column-gap: 135px;
+}
+.skills-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.icons {
+  font-size: 130px;
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    width: 100%;
+    height: calc(100vh - 240px);
+  }
+  .about h2 {
+    font-size: 60px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 60px;
+  }
+  .skills-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 85px;
+  }
+  .skills-items {
+    font-size: 34px;
+    row-gap: 15px;
+    column-gap: 5px;
+  }
+  .icons {
+    font-size: 62px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 42px;
+  }
+  .skills h2 {
+    font-size: 30px;
+  }
+  .skills-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 25px;
+  }
+  .skills-items {
+    font-size: 24px;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  .icons {
+    font-size: 42px;
+  }
+}
