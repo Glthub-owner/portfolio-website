@@ -13,7 +13,7 @@ export const ProjectList = [
     image: MemeGenerator,
     technologies: "React, CSS",
     Description:
-      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on the said image.",
+      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
   },
   {
     name: "Movie App",

@@ -8,10 +8,10 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi my name is Ilia</h2>
+        <h2>Hi, my name is Ilia.</h2>
         <div className="prompt">
           <p>
-            I am a React developer and a student who is willing to assist
+            I am a React developer and a IT student who is willing to assist
             companies in developing websites.
           </p>
           <a
