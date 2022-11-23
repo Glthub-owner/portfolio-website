@@ -22,7 +22,7 @@ function Home() {
             <LinkedIn />
           </a>
           <a
-            href="https://github.com/Glthub-owner"
+            href="https://github.com/IliaJaghmaidze"
             target="_blank"
             rel="noreferrer noopener"
           >
