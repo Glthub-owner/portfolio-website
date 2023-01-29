@@ -4,8 +4,20 @@ import Movies from "../assets/Movies.PNG";
 import Pokemon from "../assets/Pokemon.PNG";
 import Tenzies from "../assets/Tenzies.PNG";
 import Weather from "../assets/Weather.PNG";
+import BreakingBad from "../assets/breaking-bad.PNG";
 
 export const ProjectList = [
+  {
+    name: "Breaking bad",
+    github: "https://github.com/IliaJaghmaidze/Breaking-bad",
+    liveWebsite: "https://breaking-bad-ilia.netlify.app/",
+    image: BreakingBad,
+    technologies:
+      "React, redux-toolkit, tailwindcss, react-bootstrap, redux-persist",
+    Description:
+      "View Breaking Bad characters info in card format and add them to favourites. All favourite characters will be saved in your local storage.",
+  },
+
   {
     name: "Meme Generator",
     github: "https://github.com/Glthub-owner/meme-generator",
