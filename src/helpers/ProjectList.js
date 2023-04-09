@@ -1,3 +1,8 @@
+import technotes from "../assets/technotes.PNG";
+import Jobs from "../assets/Jobs.PNG";
+import TaskManager from "../assets/Task-manager.PNG";
+import Number from "../assets/Number.PNG";
+import Store from "../assets/Store.PNG";
 import Ecommerce from "../assets/Ecommerce.PNG";
 import MemeGenerator from "../assets/MemeGenerator1.PNG";
 import Movies from "../assets/Movies.PNG";
@@ -7,6 +12,52 @@ import Weather from "../assets/Weather.PNG";
 import BreakingBad from "../assets/breaking-bad.PNG";
 
 export const ProjectList = [
+  {
+    name: "technotes",
+    github: "https://github.com/IliaJaghmaidze/technotes-backend",
+    liveWebsite: "https://technotes-86mj.onrender.com/",
+    image: technotes,
+    technologies: "nodejs, express, mongoose, React, react-redux, jwt",
+    Description:
+      "Technotes is a website for a tech repairshop. Purpose of this website is to aid its owner manage employees and tasks. Owner can register new employees and assign them tasks to do. Employees will only be able to see the tasks that are specifically assigned to them ",
+  },
+  {
+    name: "Jobio",
+    github: "https://github.com/IliaJaghmaidze/Jobs-api",
+    liveWebsite: "https://jobs-9qc6.onrender.com",
+    image: Jobs,
+    technologies: "React, CSS",
+    Description:
+      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
+  },
+  {
+    name: "Task-manager",
+    github: "https://github.com/IliaJaghmaidze/Task-manager",
+    liveWebsite: "https://task-manager-hjqp.onrender.com/",
+    image: TaskManager,
+    technologies: "React, CSS",
+    Description:
+      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
+  },
+  {
+    name: "Store-api",
+    github: "https://github.com/IliaJaghmaidze/Store-api",
+    liveWebsite: "https://store-api-wzaq.onrender.com/",
+    image: Store,
+    technologies: "React, CSS",
+    Description:
+      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
+  },
+  {
+    name: "Generate number",
+    github: "https://github.com/IliaJaghmaidze/JWT-basics",
+    liveWebsite: "https://jwt-basics.onrender.com",
+    image: Number,
+    technologies: "React, CSS",
+    Description:
+      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
+  },
+  ////split
   {
     name: "Breaking bad",
     github: "https://github.com/IliaJaghmaidze/Breaking-bad",
