@@ -11,7 +11,7 @@ function Home() {
         <h2>Hi, my name is Ilia.</h2>
         <div className="prompt">
           <p>
-            I am a React developer and a IT student who is willing to assist
+            I am a Web developer and a IT student who is willing to assist
             companies in developing websites.
           </p>
           <a
