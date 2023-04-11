@@ -17,7 +17,7 @@ export const ProjectList = [
     github: "https://github.com/IliaJaghmaidze/technotes-backend",
     liveWebsite: "https://technotes-86mj.onrender.com/",
     image: technotes,
-    technologies: "nodejs, express, mongoose, React, react-redux, jwt",
+    technologies: "nodejs, express, mongoDB, mongoose, React, react-redux, jwt",
     Description:
       "Technotes is a website for a tech repairshop. Purpose of this website is to aid its owner manage employees and tasks. Owner can register new employees and assign them tasks to do. Employees will only be able to see the tasks that are specifically assigned to them ",
   },
@@ -26,36 +26,36 @@ export const ProjectList = [
     github: "https://github.com/IliaJaghmaidze/Jobs-api",
     liveWebsite: "https://jobs-9qc6.onrender.com",
     image: Jobs,
-    technologies: "React, CSS",
+    technologies:
+      "nodejs, expressjs, mongoose, mongoDB, JWT, swagger, YAML, helmet, cors, xss, bcryptjs ",
     Description:
-      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
+      "Jobs app helps users manage their job applications. Add position, company and current status. ",
   },
   {
     name: "Task-manager",
     github: "https://github.com/IliaJaghmaidze/Task-manager",
     liveWebsite: "https://task-manager-hjqp.onrender.com/",
     image: TaskManager,
-    technologies: "React, CSS",
-    Description:
-      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
+    technologies: "Node.js, express, mongoDB, mongoose, html, css",
+    Description: "Task manager. Add, edit, mark as completed and delete tasks.",
   },
   {
     name: "Store-api",
     github: "https://github.com/IliaJaghmaidze/Store-api",
     liveWebsite: "https://store-api-wzaq.onrender.com/",
     image: Store,
-    technologies: "React, CSS",
+    technologies: "Node.js, express, mongoDB, mongoose",
     Description:
-      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
+      "Store-api which allows you to sort items by their price,name,rating. See github readme for more details.",
   },
   {
     name: "Generate number",
     github: "https://github.com/IliaJaghmaidze/JWT-basics",
     liveWebsite: "https://jwt-basics.onrender.com",
     image: Number,
-    technologies: "React, CSS",
+    technologies: "Node.js, express, mongoDB, mongoose, jwt",
     Description:
-      "Meme Generator app, this app takes a random meme image from an API and allows you to add top and bottom text on that image.",
+      "Basic website where you login and if authorized properly allows you to generate random number.",
   },
   ////split
   {
